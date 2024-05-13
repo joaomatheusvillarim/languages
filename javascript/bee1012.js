@@ -1,0 +1,14 @@
+let a = parseFloat(lines[0].split(" ")[0]);
+let b = parseFloat(lines[0].split(" ")[1]);
+let c = parseFloat(lines[0].split(" ")[2]);
+const pi = 3.14159;
+let triangle = (a * c)/2;
+let circle = pi * c * c;
+let trapezium = (a + b)*(c/2);
+let square = b * b;
+let rectangle = a * b;
+console.log("TRIANGULO: " + triangle.toFixed(3));
+console.log("CIRCULO: " + circle.toFixed(3));
+console.log("TRAPEZIO: " + trapezium.toFixed(3));
+console.log("QUADRADO: " + square.toFixed(3));
+console.log("RETANGULO: " + rectangle.toFixed(3));
