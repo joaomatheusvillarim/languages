@@ -1,0 +1,13 @@
+DROP SEQUENCE Usuario_SEQ;
+
+DROP SEQUENCE Livro_SEQ;
+
+DROP SEQUENCE ExemplarLivro_SEQ;
+
+DROP TABLE Emprestimo;
+
+DROP TABLE ExemplarLivro;
+
+DROP TABLE Livro;
+
+DROP TABLE Usuario;
